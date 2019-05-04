@@ -17,18 +17,35 @@ function fCameraonoff() {
 }
 
 function fStartsurvey() {
-    var localVideo = document.getElementById('local_video');
-    var localStream;
+    var video = document.getElementById('local_video');
+    var lStream;
+    const medias = {
+//  audio: false,
+		video: {
+    		facingMode: {
+			exact: "environment" // リアカメラにアクセス
+			}
+		}
+	};
 
 	fCanvasresize(nCmrwidth,nCmrheight) ;
-    navigator.mediaDevices.getUserMedia({video: true, audio: false})
+if (navigator.mediaDevices.getUserMedia){
+    navigator.mediaDevices.getUserMedia(medias)
     .then(function (stream) { // success
+		video.srcObject = stream;
+		video.play();
+		streaming = true;
+/*
       localStream = stream;
       localVideo.src = window.URL.createObjectURL(localStream);
+*/
     }).catch(function (error) { // error
       console.error('mediaDevices.getUserMedia() error:', error);
       return;
     });
+} else {
+	_gMessage("Error: Cannot find getUserMedia.") ;
+}
     bOncamera = true ;
 	bPause = false ;
 
@@ -44,11 +61,11 @@ function fMainloop() {
 }
 
 function fStopcamera() {
-    var localVideo = document.getElementById('local_video');
+    var video = document.getElementById('local_video');
 
 	_stopmainloop() ;
 	window.removeEventListener('deviceorientation', fDeviceOrientationHandler); 
-    localVideo.src = null ;
+    video.srcObject = null ;
     bOncamera = false ;
 	fCanvasresize(0,0) ;
 }
@@ -65,10 +82,10 @@ function fCamerarefresh() {
 
 if (bOncamera) {
 	var canvas = document.getElementById('canvas');
-    var localVideo = document.getElementById('local_video');
+    var video = document.getElementById('local_video');
 	var context = canvas.getContext("2d") ;
 
-	context.drawImage(localVideo, 0, 0, nCmrwidth, nCmrheight);
+	context.drawImage(video, 0, 0, nCmrwidth, nCmrheight);
 
 	nAngle = nBeta-90 ;
 	nAngleSign = (nAngle>0)?(+1):((nAngle<0)?(-1):0) ;

@@ -165,7 +165,7 @@ function fMainPage() {			//	0
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -213,7 +213,7 @@ function fHeightSurvey() {		//	1
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
@@ -239,7 +239,7 @@ function fSetDistance() {		//	2
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -280,7 +280,7 @@ function fSetLocations() {		//	22
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -293,7 +293,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
@@ -319,7 +319,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
@@ -358,7 +358,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
@@ -389,7 +389,7 @@ function fMapMode() {			//	23
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 	_gStarttablerow() ;
 // >>>DDDD
@@ -441,7 +441,7 @@ function fLSelectTarget() {     //  24
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -481,7 +481,7 @@ function fLSelectMe() {     //  25
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -518,7 +518,7 @@ function fSetting() {			//	3
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -597,7 +597,7 @@ function fSEditLocation() {	//	34
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -614,7 +614,7 @@ function fSEditLocation() {	//	34
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
 // >>>DDDD
-	_gStarttablerow() ;	_gStarttabledata('align=center'+_gStylefontsize('0.9')) ;
+	_gStarttablerow() ;	_gStarttabledata('align=center'+_gStylefontsize('2.0')) ;
 	var sBGcolor = '#FFFFA0' ;
 	var sParam = 'BGCOLOR='+sBGcolor+' style="height:160px;" ' ;
     _gSelectmenu2(aList,'fLEntrySelected',sParam) ;
@@ -641,7 +641,7 @@ function fSEditMenu() {		//	342
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -682,7 +682,7 @@ function fSImportHistory() {	//	35
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -700,7 +700,7 @@ function fSImportHistory() {	//	35
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 	_gStarttablerow() ;
 // >>>DDDD
@@ -729,7 +729,7 @@ function fSExportHistory() {	//	36
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
