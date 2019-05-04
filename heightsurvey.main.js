@@ -3,6 +3,7 @@
 // tag:variables.
 //
 
+ver sVer = 'i1.0' ;
 var _debug = false ;
 
 var nCmrwidth = 960 ;
@@ -169,7 +170,7 @@ function fMainPage() {			//	0
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
-        _gString('Main menu');
+        _gString('Main ('+sVer+')');
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;

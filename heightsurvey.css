@@ -20,25 +20,25 @@ button, input[type="button"] {
 	width:800px;
 	height:120px;
 	color:#FFFFFF;
-	background-color:#6969a0;
+	background-color:#a06969;
 }
 
 button:active, input[type="button"]:active {
 	padding: 6px 20px 4px;
-	background-color: #303060;
+	background-color: #603030;
 }
 
 button.small, input[type="button"] {
 	font-size:36px;
-	width:190px;
+	width:220px;
 	height:100px;
 	color:#FFFFFF;
-	background-color:#6969a0;
+	background-color:#a06969;
 }
 
 button.small:active, input[type="button"]:active {
 	padding: 6px 20px 4px;
-	background-color: #303060;
+	background-color: #603030;
 }
 
 /* input type="radio" ‚Ì‚Ý */
