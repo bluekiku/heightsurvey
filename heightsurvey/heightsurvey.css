@@ -1,0 +1,54 @@
+/*
+	common css sample.
+*/
+#local_video{
+	display:none; 
+}
+
+#screen{
+	width:960px;
+	height:1280px;
+	background-color:#000000;
+}
+
+button, input[type="button"] {
+	font-size:36px;
+/*
+	width:180px;
+	height:100px;
+*/
+	width:800px;
+	height:120px;
+	color:#FFFFFF;
+	background-color:#6969a0;
+}
+
+button:active, input[type="button"]:active {
+	padding: 6px 20px 4px;
+	background-color: #303060;
+}
+
+button.small, input[type="button"] {
+	font-size:36px;
+	width:190px;
+	height:100px;
+	color:#FFFFFF;
+	background-color:#6969a0;
+}
+
+button.small:active, input[type="button"]:active {
+	padding: 6px 20px 4px;
+	background-color: #303060;
+}
+
+/* input type="radio" ‚Ì‚Ý */
+input[type="radio"] {
+	width:50px;
+	height:50px;
+}
+
+/* input type="checkbox" ‚Ì‚Ý */
+input[type="checkbox"] {
+	width:50px;
+	height:50px;
+}
