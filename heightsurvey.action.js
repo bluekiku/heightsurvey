@@ -51,7 +51,6 @@ if (navigator.mediaDevices.getUserMedia){
 
 if (window.DeviceOrientationEvent) {
 	window.addEventListener('deviceorientation', fDeviceOrientationHandler); 
-	alert('ok') ;
 } else {
 	_gMessage('window.DeviceOrientationEvent is not supported.') ;
 }
@@ -204,6 +203,8 @@ function fDeviceOrientationHandler(event) {
 	nGamma = event.gamma; 
 	// Z軸 
 	nAlpha = event.alpha; 
+nBeta = nBeta+1 ;
+//	alert('ok') ;
 }
 
 function fCanvasresize(nX,nY) {
