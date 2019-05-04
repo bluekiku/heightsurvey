@@ -51,6 +51,7 @@ if (navigator.mediaDevices.getUserMedia){
 
 if (window.DeviceOrientationEvent) {
 	window.addEventListener('deviceorientation', fDeviceOrientationHandler); 
+	alert('ok') ;
 } else {
 	_gMessage('window.DeviceOrientationEvent is not supported.') ;
 }
