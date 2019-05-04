@@ -293,7 +293,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('1.2')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('1.8')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD

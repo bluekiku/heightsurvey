@@ -458,7 +458,7 @@ try {
 	map.style.height = nMapheight.toString()+'px' ;
 
 	var log = Math.log(nDist)/Math.log(2.0) ;
-	var zoomlevel = 23 - (Math.ceil(log)-3) ;
+	var zoomlevel = 23 - (Math.ceil(log)-2) ;
 //	8.196 km for 11
 //	4096 12, 2048 13, 1024 14, 512 15, 256 16, 128 17, 64 18, 32 19, 16 20, 8 21, 4 22, 2 23,
 //	80km for 8
