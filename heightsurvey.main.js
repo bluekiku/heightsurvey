@@ -598,7 +598,7 @@ function fSEditLocation() {	//	34
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -615,7 +615,7 @@ function fSEditLocation() {	//	34
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
 // >>>DDDD
-	_gStarttablerow() ;	_gStarttabledata('align=center'+_gStylefontsize('2.0')) ;
+	_gStarttablerow() ;	_gStarttabledata('align=center') ;
 	var sBGcolor = '#FFFFA0' ;
 	var sParam = 'BGCOLOR='+sBGcolor+' style="height:160px;" ' ;
     _gSelectmenu2(aList,'fLEntrySelected',sParam) ;
