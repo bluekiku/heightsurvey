@@ -3,7 +3,7 @@
 // tag:variables.
 //
 
-ver sVer = 'i1.0' ;
+var sVer = 'i1.0' ;
 var _debug = false ;
 
 var nCmrwidth = 960 ;
