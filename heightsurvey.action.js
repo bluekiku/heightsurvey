@@ -706,7 +706,7 @@ function fCalcDistance(sTarget,sMe) {
 */
 		ret = fGetDistanceByGeocoordinates(aNLoc1,aNLoc2) ;
 		if (ret !== null) {
-			_gMessage('Distance = '+ret.toString()+' meters') ;
+//			_gMessage('Distance = '+ret.toString()+' meters') ;
 			return ret ;
 		} else {
 			_gMessage('Calculation failed.') ;
