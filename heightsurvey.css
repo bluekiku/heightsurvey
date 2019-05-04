@@ -30,7 +30,7 @@ button:active, input[type="button"]:active {
 
 button.small, input[type="button"] {
 	font-size:36px;
-	width:220px;
+	width:210px;
 	height:100px;
 	color:#FFFFFF;
 	background-color:#a06969;
