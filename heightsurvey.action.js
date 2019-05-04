@@ -49,7 +49,11 @@ if (navigator.mediaDevices.getUserMedia){
     bOncamera = true ;
 	bPause = false ;
 
+if (window.DeviceOrientationEvent) {
 	window.addEventListener('deviceorientation', fDeviceOrientationHandler); 
+} else {
+	_gMessage('window.DeviceOrientationEvent is not supported.') ;
+}
 	_startmainloop(fMainloop) ;
 	nStatus = 1 ;
 }
