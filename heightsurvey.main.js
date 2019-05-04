@@ -319,7 +319,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
@@ -358,7 +358,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('2.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD

@@ -449,7 +449,7 @@ function fCreateMap() {
 try {
 	var StartPoint = new Microsoft.Maps.Location(StartLat, StartLng);
 
-//	alert('ok') ;
+	alert('ok') ;
 
 	var map = document.getElementById('map') ;
 	map.style.width = nMapwidth.toString()+'px' ;
