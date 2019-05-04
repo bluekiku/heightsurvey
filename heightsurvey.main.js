@@ -49,8 +49,8 @@ var oCndMe = {
 
 var mapLine = null;
 
-var nMapwidth = 640 ;
-var nMapheight = 640 ;
+var nMapwidth = 960 ;
+var nMapheight = 960 ;
 var oTheMap ;
 var oMarkerC;
 var oMarker1;
@@ -293,7 +293,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('1.2')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
