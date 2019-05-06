@@ -40,7 +40,7 @@ if (navigator.mediaDevices.getUserMedia){
       localVideo.src = window.URL.createObjectURL(localStream);
 */
     }).catch(function (error) { // error
-      console.error('mediaDevices.getUserMedia() error:', error);
+      _gMessage('mediaDevice.getUserMedia() error:'+error.toString());
       return;
     });
 } else {
@@ -607,7 +607,7 @@ function fDragEnd(Args) {
 	if (mapLine == null) {
 		mapLine = new Microsoft.Maps.Polyline(Endpoints, 
 		{
-			strokeColor: new Microsoft.Maps.Color(0xFF, 0xFF, 0xFF, 0),  // aRGB
+			strokeColor: new Microsoft.Maps.Color(0xFF, 0, 0xFF, 0),  // aRGB
 			strokeThickness : 2
 		});
 		oTheMap.entities.push(mapLine);
