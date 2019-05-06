@@ -1,6 +1,10 @@
 /*
 	common css sample.
 */
+body {
+	-webkit-text-size-adjust: 100%;
+}
+
 #local_video{
 	display:none; 
 }
