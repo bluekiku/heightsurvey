@@ -683,7 +683,7 @@ function fSImportHistory() {	//	35
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -694,7 +694,7 @@ function fSImportHistory() {	//	35
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-    _gTextarea('ta2',15,80,'1.2','','Input hare');
+    _gTextarea('ta2',15,40,'1.2','','Input hare');
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
@@ -730,7 +730,7 @@ function fSExportHistory() {	//	36
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -741,7 +741,7 @@ function fSExportHistory() {	//	36
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-	    _gTextarea('ta3',15,80,'1.2','onclick="this.select();"',sGOutput);
+	    _gTextarea('ta3',15,40,'1.2','onclick="this.select();"',sGOutput);
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
