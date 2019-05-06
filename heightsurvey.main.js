@@ -694,7 +694,7 @@ function fSImportHistory() {	//	35
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-    _gTextarea('ta2',15,40,'1.2','','Input hare');
+    _gTextarea('ta2',15,40,'0.8','','Input hare');
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
@@ -741,7 +741,7 @@ function fSExportHistory() {	//	36
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-	    _gTextarea('ta3',15,40,'1.2','onclick="this.select();"',sGOutput);
+	    _gTextarea('ta3',15,40,'0.8','onclick="this.select();"',sGOutput);
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
