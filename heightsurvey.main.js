@@ -3,7 +3,7 @@
 // tag:variables.
 //
 
-var sVer = 'i1.0' ;
+var sVer = 'i1.1' ;
 var _debug = false ;
 
 var nCmrwidth = 960 ;
@@ -166,7 +166,7 @@ function fMainPage() {			//	0
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -214,7 +214,7 @@ function fHeightSurvey() {		//	1
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
@@ -240,7 +240,7 @@ function fSetDistance() {		//	2
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -281,7 +281,7 @@ function fSetLocations() {		//	22
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -294,11 +294,11 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('1.8')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('0.8')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
-		_gStarttabledata('align=right width=50%') ;
+		_gStarttabledata('align=right width=33%') ;
 		_gString('Target Position :') ;
 		_gNewline() ;
 		_gString('Current Position :') ;
@@ -307,7 +307,7 @@ function fSetLocations() {		//	22
 // <<<DDDD
    	_gEndtabledata() ;
 // >>>DDDD
-		_gStarttabledata('align=left width=50%') ;
+		_gStarttabledata('align=left width=67%') ;
 		_gString(sCndTarget) ;
 		_gNewline() ;
 		_gString(sCndMe) ;
@@ -320,7 +320,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
@@ -359,7 +359,7 @@ function fSetLocations() {		//	22
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=90%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=90%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 	_gStarttablerow() ;	
 // >>>DDDD
@@ -390,7 +390,7 @@ function fMapMode() {			//	23
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 	_gStarttablerow() ;
 // >>>DDDD
@@ -442,7 +442,7 @@ function fLSelectTarget() {     //  24
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -482,7 +482,7 @@ function fLSelectMe() {     //  25
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -519,7 +519,7 @@ function fSetting() {			//	3
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -598,7 +598,7 @@ function fSEditLocation() {	//	34
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=80%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=80%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -642,7 +642,7 @@ function fSEditMenu() {		//	342
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -683,7 +683,7 @@ function fSImportHistory() {	//	35
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -694,14 +694,14 @@ function fSImportHistory() {	//	35
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-    _gTextarea('ta2',15,40,'0.8','','Input hare');
+    _gTextarea('ta2',15,50,'0.8','','Input hare');
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
 // <TTTT
 	_gEndtable() ;
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('2.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 	_gStarttablerow() ;
 // >>>DDDD
@@ -730,7 +730,7 @@ function fSExportHistory() {	//	36
     _gNewline() ;
     _gStartform('form1');
 // >TTTT
-	_gStarttable(0,'width=100%'+_gStylefontsize('3.0')) ;
+	_gStarttable(0,'width=100%'+_gStylefontsize('1.0')) ;
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ; _gStarttabledata('align=center') ;
@@ -741,7 +741,7 @@ function fSExportHistory() {	//	36
 // >>RRRR
 // >>>DDDD
 	_gStarttablerow() ;	_gStarttabledata('align=center') ;
-	    _gTextarea('ta3',15,40,'0.8','onclick="this.select();"',sGOutput);
+	    _gTextarea('ta3',15,50,'0.8','onclick="this.select();"',sGOutput);
 // <<<DDDD
 // <<RRRR
    	_gEndtabledata() ; _gEndtablerow() ;
